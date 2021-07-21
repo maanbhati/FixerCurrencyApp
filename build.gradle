@@ -5,7 +5,7 @@ buildscript {
     repositories {
         google()
         jcenter()
-        maven { url 'https://jitpack.io' }
+        maven { url 'https://jetpack.io' }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:4.2.2'
@@ -60,7 +60,6 @@ allprojects {
                 koin                     : "org.koin:koin-android-viewmodel:2.0.1",
                 calligraphy              : 'io.github.inflationx:calligraphy3:3.1.1',
                 viewPump                 : 'io.github.inflationx:viewpump:2.0.3',
-                crystalpreloaders        : 'com.crystal:crystalpreloaders:1.0.0'
         ]
 
         testLibs = [

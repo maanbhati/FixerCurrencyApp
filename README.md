@@ -5,4 +5,8 @@ for getting the result base currency is defined as EUR, and user can enter any v
 four currency conversion on screen, comparison is displayed in form of chart keeping EUR as base currency once user performed the
 search after entering valid EUR amount.
 
+#Clean Architecture
+App is designed using clean architecture pattern which contains presentation layer, data layer and usecase layer seperately, and 
+view binding is done via ViewModel.
+
 

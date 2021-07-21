@@ -8,7 +8,7 @@ search after entering valid EUR amount.
 # Clean Architecture
 App is designed using clean architecture pattern which contains presentation layer, data layer and usecase layer seperately, and 
 view binding is done via ViewModel.
-The app uses Retrofit2 for Api, Koin for DI, MVVM for data binding, OkHttp for http connection, GsonConvertor for Json parsing, Coroutines for Threading, 
+The app uses * Retrofit2 for Api, * Koin for DI, * MVVM for data binding, * OkHttp for http connection, * GsonConvertor for Json parsing, * Coroutines for Threading, 
 
 # Introduction and Running the app
 This project uses the Gradle system. To build this project, use the gradlew build command or use "Import Project" in Android Studio.
@@ -16,22 +16,22 @@ For running the you need to first get your key from here https://fixer.io/docume
 <YOUR_API_KEY> inside Constants.kt file within the app.
 
 # Tools and Technology
-This app using Architecture Components:
-Room
-ViewModels
-LiveData
-Coroutines
+* This app using Architecture Components:
+* Room
+* ViewModels
+* LiveData
+* Coroutines
 
 # Third party libraries
-Retrofit for Api call
-Android Support Design for advanced ui
-Koin for dependency injection
-Calligraphy for custom font styles
-MPAndroidChart for charts showing comparision 
-Mockito/MockK for Junit test
-Glide for image loading
-View Pump for custom fonts styles
-OkHttp for http/https connections
+* Retrofit for Api call
+* Android Support Design for advanced ui
+* Koin for dependency injection
+* Calligraphy for custom font styles
+* MPAndroidChart for charts showing comparision 
+* Mockito/MockK for Junit test
+* Glide for image loading
+* View Pump for custom fonts styles
+* OkHttp for http/https connections
 
 # Improvements
 * Add Navigation Component

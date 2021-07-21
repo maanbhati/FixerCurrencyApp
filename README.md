@@ -34,10 +34,10 @@ View Pump for custom fonts styles
 OkHttp for http/https connections
 
 # Improvements
-⋅⋅* Add Navigation Component
-⋅⋅* Fix update from adapter and use LiveData in some parts
-⋅⋅* Remove usecases logic from adapter
-⋅⋅* Test cases are not completely functional
+* Add Navigation Component
+* Fix update from adapter and use LiveData in some parts
+* Remove usecases logic from adapter
+* Test cases are not completely functional
 
 
 

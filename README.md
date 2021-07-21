@@ -8,6 +8,7 @@ search after entering valid EUR amount.
 # Clean Architecture
 App is designed using clean architecture pattern which contains presentation layer, data layer and usecase layer seperately, and 
 view binding is done via ViewModel.
+The app uses Retrofit2 for Api, Koin for DI, MVVM for data binding, OkHttp for http connection, GsonConvertor for Json parsing, Coroutines for Threading, 
 
 # Introduction and Running the app
 This project uses the Gradle system. To build this project, use the gradlew build command or use "Import Project" in Android Studio.

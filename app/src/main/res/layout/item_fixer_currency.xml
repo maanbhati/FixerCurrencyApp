@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/spacing_16dp">
+
+    <TextView
+        android:id="@+id/titleUsdTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spacing_16dp"
+        android:drawableStart="@drawable/ic_united_states"
+        android:drawablePadding="@dimen/spacing_16dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="@string/default_currency_value"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/americaCurrencyLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:text="@string/text_usd"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="@dimen/text_size_20sp"
+        app:layout_constraintBottom_toBottomOf="@id/titleUsdTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/titleUsdTextView" />
+
+    <TextView
+        android:id="@+id/titleJpyTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spacing_16dp"
+        android:drawableStart="@drawable/ic_japan"
+        android:drawablePadding="@dimen/spacing_16dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="@string/default_currency_value"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleUsdTextView" />
+
+    <TextView
+        android:id="@+id/japanCurrencyLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:text="@string/text_jpy"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="@dimen/text_size_20sp"
+        app:layout_constraintBottom_toBottomOf="@id/titleJpyTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/titleJpyTextView" />
+
+    <TextView
+        android:id="@+id/titleGbpTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spacing_16dp"
+        android:drawableStart="@drawable/ic_england"
+        android:drawablePadding="@dimen/spacing_16dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="@string/default_currency_value"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleJpyTextView" />
+
+    <TextView
+        android:id="@+id/englandCurrencyLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:text="@string/text_gbp"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="@dimen/text_size_20sp"
+        app:layout_constraintBottom_toBottomOf="@id/titleGbpTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/titleGbpTextView" />
+
+    <TextView
+        android:id="@+id/titleAustraliaTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spacing_16dp"
+        android:drawableStart="@drawable/ic_australia"
+        android:drawablePadding="@dimen/spacing_16dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="@string/default_currency_value"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleGbpTextView" />
+
+    <TextView
+        android:id="@+id/australiaCurrencyLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/spacing_16dp"
+        android:text="@string/text_aud"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="@dimen/text_size_20sp"
+        app:layout_constraintBottom_toBottomOf="@id/titleAustraliaTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/titleAustraliaTextView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

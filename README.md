@@ -36,7 +36,6 @@ For running the you need to first get your key from here https://fixer.io/docume
 # Improvements
 * Add Navigation Component
 * Fix update from adapter and use LiveData in some parts
-* Remove usecases logic from adapter
 * Test cases are not completely functional
 
 

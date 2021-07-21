@@ -12,7 +12,7 @@ The app uses * Retrofit2 for Api, * Koin for DI, * MVVM for data binding, * OkHt
 
 # Introduction and Running the app
 This project uses the Gradle system. To build this project, use the gradlew build command or use "Import Project" in Android Studio.
-For running the you need to first get your key from here https://fixer.io/documentation and once you got the key replace that with
+For running the app you need to first get your key from here https://fixer.io/documentation and once you got the key replace that with
 <YOUR_API_KEY> inside Constants.kt file within the app.
 
 # Tools and Technology
